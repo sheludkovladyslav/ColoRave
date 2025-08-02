@@ -13,7 +13,7 @@
   color: var(--main-color);
 }
 
-.main {
+.hero {
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,4 +21,15 @@
 
 .main__container {
   padding: 94px 0 183px 0;
+}
+
+.advantages {
+  background-image: url("./images/background-advantages.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advantages__container {
+  padding: 105px 0;
+  max-width: 1110px;
 }

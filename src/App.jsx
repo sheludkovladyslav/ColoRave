@@ -2,7 +2,8 @@ import "./App.css";
 import Nav from "./components/header/nav/Nav";
 import LanguageSwitcher from "./components/header/LanguageSwitcher";
 import Logo from "./components/Logo";
-import Main from "./components/main/main";
+import Main from "./components/main/Hero";
+import { Advantages } from "./components/advantages/Advantages";
 
 function App() {
   return (
@@ -16,9 +17,12 @@ function App() {
       </header>
 
       <main className="main">
-        <div className="main__container container">
-          <Main></Main>
-        </div>
+        <Main></Main>
+        <section className="advantages">
+          <div className="advantages__container container">
+            <Advantages></Advantages>
+          </div>
+        </section>
       </main>
     </>
   );

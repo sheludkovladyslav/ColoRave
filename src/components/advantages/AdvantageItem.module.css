@@ -1,0 +1,33 @@
+.imgContainer {
+  width: 240px;
+  height: 240px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  max-width: 160px;
+  text-align: center;
+  font-family: var(--tertiary-font);
+  font-weight: 400;
+}
+
+.item:nth-child(1) {
+  padding: 0 50px 0 0;
+  border-right: 1px solid var(--main-color);
+}
+
+.item:nth-child(2) {
+  flex-direction: column-reverse;
+}
+
+.item:nth-child(3) {
+  padding: 0 0 0 50px;
+  border-left: 1px solid var(--main-color);
+}

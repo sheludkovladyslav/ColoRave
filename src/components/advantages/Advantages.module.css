@@ -1,0 +1,6 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  border: 5px solid var(--advantages-bg);
+}
