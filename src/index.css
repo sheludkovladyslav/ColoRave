@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--header-bg);
+  padding: 15px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active {
+  color: var(--main-color);
+}
+
+.main {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__container {
+  padding: 94px 0 183px 0;
+}

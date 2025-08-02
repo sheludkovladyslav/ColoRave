@@ -10,49 +10,26 @@ export default class Test extends React.Component {
     };
   }
 
-  componentDidMount() {
-    if (
-      window.location.pathname === "/" ||
-      window.location.pathname === "/index.html"
-    ) {
-      this.setState({
-        isActive: true,
-      });
-    }
-  }
-
   render() {
     return (
       <ul className={css.list}>
-        <li className={css.item}>
-          <a href="" className={this.state.isActive && "active"}>
-            Main page
-          </a>
+        <li className={`${css.item} ${css.active}`}>
+          <a href="">Main page</a>
         </li>
-        <li className={css.item}>
-          <a href="" className={this.state.isActive && "active"}>
-            Benefits
-          </a>
+        <li className={`${css.item} `}>
+          <a href="">Benefits</a>
         </li>
-        <li className={css.item}>
-          <a href="" className={this.state.isActive && "active"}>
-            Advantages
-          </a>
+        <li className={`${css.item} `}>
+          <a href="">Advantages</a>
         </li>
-        <li className={css.item}>
-          <a href="" className={this.state.isActive && "active"}>
-            Reviews
-          </a>
+        <li className={`${css.item} `}>
+          <a href="">Reviews</a>
         </li>
-        <li className={css.item}>
-          <a href="" className={this.state.isActive && "active"}>
-            Contacts
-          </a>
+        <li className={`${css.item} `}>
+          <a href="">Contacts</a>
         </li>
-        <li className={css.item}>
-          <a href="" className={this.state.isActive && "active"}>
-            Order
-          </a>
+        <li className={`${css.item} `}>
+          <a href="">Order</a>
         </li>
       </ul>
     );

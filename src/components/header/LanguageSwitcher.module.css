@@ -1,6 +1,6 @@
-.item {
-  font-weight: 300;
+.btn {
   color: var(--header-items);
+  font-weight: 300;
 }
 
 .active {
@@ -8,7 +8,7 @@
   font-weight: 400;
 }
 
-.list {
+.container {
   display: flex;
-  gap: 30px;
+  gap: 15px;
 }
