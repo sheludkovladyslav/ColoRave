@@ -33,3 +33,16 @@
   padding: 105px 0;
   max-width: 1110px;
 }
+
+.reviews {
+  background-image: url("./images/reviews/flowers-revies.png"),
+    url("./images/reviews/background-reviews.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: bottom left, center;
+}
+
+.reviews__container {
+  padding: 25px 0 115px;
+  max-width: 951px;
+}

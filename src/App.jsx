@@ -3,7 +3,8 @@ import Nav from "./components/header/nav/Nav";
 import LanguageSwitcher from "./components/header/LanguageSwitcher";
 import Logo from "./components/Logo";
 import Main from "./components/main/Hero";
-import { Advantages } from "./components/advantages/Advantages";
+import { Advantages } from "./components/main/advantages/Advantages";
+import { Reviews } from "./components/main/reviews/Reviews";
 
 function App() {
   return (
@@ -21,6 +22,12 @@ function App() {
         <section className="advantages">
           <div className="advantages__container container">
             <Advantages></Advantages>
+          </div>
+        </section>
+
+        <section className="reviews">
+          <div className="reviews__container container">
+            <Reviews></Reviews>
           </div>
         </section>
       </main>

@@ -1,8 +1,8 @@
 import css from "./Advantages.module.css";
 import { AdvantageItem } from "./AdvantageItem";
-import delivery from "../../images/delivery.png";
-import stars from "../../images/stars.png";
-import paint from "../../images/paint.png";
+import delivery from "../../../images/delivery.png";
+import stars from "../../../images/stars.png";
+import paint from "../../../images/paint.png";
 
 export const Advantages = ({}) => {
   return (
