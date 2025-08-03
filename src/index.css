@@ -65,3 +65,11 @@ button {
   align-items: center;
   flex-direction: column;
 }
+
+.footer {
+  background-color: var(--footer-color);
+}
+
+.footer__container {
+  padding: 45px 0 35px;
+}

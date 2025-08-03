@@ -6,6 +6,7 @@ import Main from "./components/main/Hero";
 import { Advantages } from "./components/main/advantages/Advantages";
 import { Reviews } from "./components/main/reviews/Reviews";
 import Order from "./components/main/orders/Order";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -38,6 +39,12 @@ function App() {
           </div>
         </section>
       </main>
+
+      <footer className="footer">
+        <div className="footer__container container">
+          <Footer></Footer>
+        </div>
+      </footer>
     </>
   );
 }
