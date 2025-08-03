@@ -1,6 +1,7 @@
 .btn {
   color: var(--header-items);
   font-weight: 300;
+  background: none;
 }
 
 .active {

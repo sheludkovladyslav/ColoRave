@@ -30,8 +30,5 @@
 }
 
 .btn {
-  background-color: var(--btn-bg);
   padding: 20px 60px;
-  color: var(--main-color);
-  border-radius: 10px;
 }

@@ -1,0 +1,45 @@
+.title {
+  font-size: 48px;
+  font-family: var(--tertiary-font);
+  font-weight: 400;
+  margin-bottom: 33px;
+}
+
+.input {
+  display: flex;
+  max-width: 580px;
+  width: 100%;
+  padding: 11px 24px;
+  border-radius: 50px;
+}
+
+.form {
+  max-width: 690px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.emailContainer {
+  display: flex;
+  background-color: var(--main-color);
+  padding: 15px 80px 15px 25px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.email {
+  padding: 0;
+}
+
+.btnConfirm {
+  font-size: 28px;
+  background: none;
+  color: var(--confirm-color);
+}
+
+.submitBtn {
+  padding: 20px 49px;
+}

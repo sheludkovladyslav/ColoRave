@@ -46,3 +46,22 @@
   padding: 25px 0 115px;
   max-width: 951px;
 }
+
+button {
+  color: var(--main-color);
+  background-color: var(--btn-bg);
+  border-radius: 10px;
+}
+
+.order {
+  background-image: url("./images/order/background-orders.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.order__container {
+  padding: 20px 0 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

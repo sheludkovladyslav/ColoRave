@@ -5,6 +5,7 @@ import Logo from "./components/Logo";
 import Main from "./components/main/Hero";
 import { Advantages } from "./components/main/advantages/Advantages";
 import { Reviews } from "./components/main/reviews/Reviews";
+import Order from "./components/main/orders/Order";
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
         <section className="reviews">
           <div className="reviews__container container">
             <Reviews></Reviews>
+          </div>
+        </section>
+
+        <section className="order">
+          <div className="order__container container">
+            <Order></Order>
           </div>
         </section>
       </main>
